@@ -1,0 +1,7 @@
+Time resolution is 1 ps
+[1100215000] PASS: sent=41 received=41
+[2141815000] PASS: sent=55 received=55
+[3183415000] PASS: sent=ff received=ff
+[4225015000] PASS: sent=00 received=00
+[4225030000] All tests complete
+$finish called at time : 4225230 ns : File "V:/uart-protocol/tb/uart_top_tb.v" Line 111

@@ -1,0 +1,28 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  --include "D:/Xilinx/2025.1/Vivado/data/rsb/busdef" \
+"../../../../../tb/uart_if.sv" \
+"../../../../../tb/uart_txn.sv" \
+"../../../../../tb/uart_ref_model.sv" \
+"../../../../../tb/uart_driver.sv" \
+"../../../../../tb/uart_monitor.sv" \
+"../../../../../tb/uart_generator.sv" \
+"../../../../../tb/uart_scoreboard.sv" \
+"../../../../../tb/uart_env.sv" \
+"../../../../../tb/uart_test.sv" \
+"../../../../../tb/uart_tb_top.sv" \
+
+verilog xil_defaultlib  --include "D:/Xilinx/2025.1/Vivado/data/rsb/busdef" \
+"../../../../../rtl/uart_baud_generator.v" \
+"../../../../../rtl/uart_rx.v" \
+"../../../../../rtl/uart_tx.v" \
+"../../../../../rtl/uart_top.v" \
+"../../../../../tb/uart_top_tb.v" \
+"../../../../../tb/uart_rx_tb.v" \
+"../../../../../tb/uart_tx_tb.v" \
+"../../../../../tb/uart_baud_generator_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

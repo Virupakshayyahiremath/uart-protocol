@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "V:/uart-protocol/tb/uart_top_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_top_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "V:/uart-protocol/tb/uart_rx_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_rx_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "V:/uart-protocol/tb/uart_tx_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_tx_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "V:/uart-protocol/tb/uart_baud_generator_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_baud_generator_tb
