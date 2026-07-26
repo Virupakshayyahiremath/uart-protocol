@@ -1,8 +1,16 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "V:/uart-protocol/tb/uart_top_tb.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module uart_top_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "V:/uart-protocol/rtl/uart_baud_generator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_baud_generator
+INFO: [VRFC 10-2263] Analyzing Verilog file "V:/uart-protocol/rtl/uart_rx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_rx
+INFO: [VRFC 10-2263] Analyzing Verilog file "V:/uart-protocol/rtl/uart_tx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "V:/uart-protocol/rtl/uart_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_top
 INFO: [VRFC 10-2263] Analyzing Verilog file "V:/uart-protocol/tb/uart_rx_tb.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module uart_rx_tb
 INFO: [VRFC 10-2263] Analyzing Verilog file "V:/uart-protocol/tb/uart_tx_tb.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module uart_tx_tb
 INFO: [VRFC 10-2263] Analyzing Verilog file "V:/uart-protocol/tb/uart_baud_generator_tb.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module uart_baud_generator_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "V:/uart-protocol/tb/uart_top_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_top_tb

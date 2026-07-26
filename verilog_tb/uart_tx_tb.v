@@ -39,7 +39,7 @@ module uart_tx_tb();
         begin
             en = 0;
             forever begin
-                #104160 en = 1;
+              #104160 en = 1;
                 #10     en = 0;
             end
         end
@@ -78,6 +78,6 @@ module uart_tx_tb();
             initialize;
             apply_reset;
             send_data(8'd25); //00011001 -- 10011000
-            #1200000 $stop;  // wait full frame + margin
+            #1200000 $finish;  // wait full frame + margin
         end
 endmodule

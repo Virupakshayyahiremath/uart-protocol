@@ -20,47 +20,57 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module uart_top(
+module uart_top (
     input        clk,
     input        rst,
-    input  [7:0] data_in,
     input        wr_en,
     input        rdy_clr,
+    input  [7:0] data_in,
+
     output       rdy,
     output       busy,
     output [7:0] data_out
 );
-    wire rx_clk_en;  // 16x oversample enable from baud generator
-    wire tx_clk_en;  // 1x bit-rate enable from baud generator
-    wire tx_temp;    // TX output looped back to RX input
 
-    // Baud rate generator
-    uart_baud_generator bg(
-        .clk    (clk),
-        .rst    (rst),
+    //-------------------------------------------------
+    // Internal Signals
+    //-------------------------------------------------
+    wire tx_clk_en;
+    wire rx_clk_en;
+    wire tx_serial;
+
+    //-------------------------------------------------
+    // Baud Rate Generator
+    //-------------------------------------------------
+    uart_baud_generator baud_gen (
+        .clock  (clk),
+        .reset  (rst),
         .enb_tx (tx_clk_en),
         .enb_rx (rx_clk_en)
     );
 
-    // UART transmitter
-    uart_tx us(
+    //-------------------------------------------------
+    // UART Transmitter
+    //-------------------------------------------------
+    uart_tx tx_inst (
         .clk     (clk),
         .rst     (rst),
         .wr_en   (wr_en),
         .enb     (tx_clk_en),
         .data_in (data_in),
-        .tx      (tx_temp),
+        .tx      (tx_serial),
         .tx_busy (busy)
     );
 
-    // UART receiver (loopback from TX)
-    // NOTE: For real hardware, replace tx_temp with external rx pin
-    uart_rx ur(
+    //-------------------------------------------------
+    // UART Receiver
+    //-------------------------------------------------
+    uart_rx rx_inst (
         .clk      (clk),
         .rst      (rst),
-        .rx       (tx_temp),
+        .rx       (tx_serial),   // Loopback connection
         .rdy_clr  (rdy_clr),
-        .clk_en   (rx_clk_en),
+        .clken    (rx_clk_en),
         .rdy      (rdy),
         .data_out (data_out)
     );
