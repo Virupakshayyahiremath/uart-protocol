@@ -391,8 +391,7 @@ https://github.com/Virupakshayyahiremath
 
 **LinkedIn**
 
-(Add your LinkedIn Profile URL)
-
+https://www.linkedin.com/in/virupakshayya/
 ---
 
 ⭐ If you found this project helpful, consider giving it a star!
