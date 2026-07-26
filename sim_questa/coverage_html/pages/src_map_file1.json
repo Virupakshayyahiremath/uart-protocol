@@ -1,0 +1,8 @@
+var g_data = {'dummy':null,
+'1':'../rtl/uart_baud_generator.v',
+'4':'../rtl/uart_rx.v',
+'2':'../rtl/uart_top.v',
+'3':'../rtl/uart_tx.v',
+'6':'../tb/uart_scoreboard.sv',
+'5':'../tb/uart_tb_top.sv',
+'7':'../tb/uart_txn.sv'};

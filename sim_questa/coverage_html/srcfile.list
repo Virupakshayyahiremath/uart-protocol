@@ -1,0 +1,7 @@
+../rtl/uart_baud_generator.v
+../rtl/uart_rx.v
+../rtl/uart_top.v
+../rtl/uart_tx.v
+../tb/uart_scoreboard.sv
+../tb/uart_tb_top.sv
+../tb/uart_txn.sv

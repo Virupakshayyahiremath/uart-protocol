@@ -1,0 +1,26 @@
+var g_data = {
+g285:[{dummy:0},
+{name:'uart_coverage',f:1,type:1,id:287,tb:'11',h:'11',m:'0',hp:'100.00%',cov:['100.00%','G'],g:'100.00%',gp:['100.00%','G'],opts:[[],['merge_instance','auto(true)']],parent:'285'},
+{name:'\\/uart_pkg::uart_scoreboard::uart_coverage ',f:1,type:2,id:291,tb:'11',h:'11',m:'0',hp:'100.00%',cov:['100.00%','G'],g:'100.00%',gp:['100.00%','G'],opts:[[],['per_instance','true']],cvg:'uart_coverage',parent:'287'}],
+c287:{name:'uart_coverage',type:1,pHash:'285',pPath:'/uart_pkg/uart_scoreboard',totals:[6,6,'100.00%','G',5,5,'100.00%','G'],cvp:[{dummy:0},
+{name:'DATA',f:1,type:4,id:288,tb:'5',h:'5',m:'0',hp:'100.00%',cov:['100.00%','G'],g:'100.00%',gp:['100.00%','G'],hasb:1,parent:'287'},
+{name:'STATUS',f:1,type:4,id:289,tb:'1',h:'1',m:'0',hp:'100.00%',cov:['100.00%','G'],g:'100.00%',gp:['100.00%','G'],hasb:1,parent:'287'}],crx:[{dummy:0},
+{name:'DATAxSTATUS',f:1,type:5,id:290,tb:'5',h:'5',m:'0',hp:'100.00%',cov:['100.00%','G'],g:'100.00%',gp:['100.00%','G'],hasb:1,parent:'287',cross:['DATA','STATUS']}]},
+c291:{name:'\\/uart_pkg::uart_scoreboard::uart_coverage ',type:2,pHash:'285',pPath:'/uart_pkg/uart_scoreboard',totals:[6,6,'100.00%','G',5,5,'100.00%','G'],cvp:[{dummy:0},
+{name:'DATA',f:1,type:4,id:292,tb:'5',h:'5',m:'0',hp:'100.00%',cov:['100.00%','G'],g:'100.00%',gp:['100.00%','G'],hasb:1,parent:'291'},
+{name:'STATUS',f:1,type:4,id:293,tb:'1',h:'1',m:'0',hp:'100.00%',cov:['100.00%','G'],g:'100.00%',gp:['100.00%','G'],hasb:1,parent:'291'}],crx:[{dummy:0},
+{name:'DATAxSTATUS',f:1,type:5,id:294,tb:'5',h:'5',m:'0',hp:'100.00%',cov:['100.00%','G'],g:'100.00%',gp:['100.00%','G'],hasb:1,parent:'291',cross:['DATA','STATUS']}]},
+g360:[{dummy:0},
+{name:'uart_coverage',f:1,type:1,id:362,tb:'11',h:'11',m:'0',hp:'100.00%',cov:['100.00%','G'],g:'100.00%',gp:['100.00%','G'],opts:[[],['merge_instance','true']],parent:'360'},
+{name:'\\/uart_pkg::uart_scoreboard::uart_coverage ',f:1,type:2,id:366,tb:'11',h:'11',m:'0',hp:'100.00%',cov:['100.00%','G'],g:'100.00%',gp:['100.00%','G'],opts:[[],['per_instance','true']],cvg:'uart_coverage',parent:'362'}],
+c362:{name:'uart_coverage',type:1,pHash:'360',pPath:'work.uart_pkg::uart_scoreboard',totals:[6,6,'100.00%','G',5,5,'100.00%','G'],cvp:[{dummy:0},
+{name:'DATA',f:1,type:4,id:363,tb:'5',h:'5',m:'0',hp:'100.00%',cov:['100.00%','G'],g:'100.00%',gp:['100.00%','G'],hasb:1,parent:'362'},
+{name:'STATUS',f:1,type:4,id:364,tb:'1',h:'1',m:'0',hp:'100.00%',cov:['100.00%','G'],g:'100.00%',gp:['100.00%','G'],hasb:1,parent:'362'}],crx:[{dummy:0},
+{name:'DATAxSTATUS',f:1,type:5,id:365,tb:'5',h:'5',m:'0',hp:'100.00%',cov:['100.00%','G'],g:'100.00%',gp:['100.00%','G'],hasb:1,parent:'362',cross:['DATA','STATUS']}]},
+c366:{name:'\\/uart_pkg::uart_scoreboard::uart_coverage ',type:2,pHash:'360',pPath:'work.uart_pkg::uart_scoreboard',totals:[6,6,'100.00%','G',5,5,'100.00%','G'],cvp:[{dummy:0},
+{name:'DATA',f:1,type:4,id:367,tb:'5',h:'5',m:'0',hp:'100.00%',cov:['100.00%','G'],g:'100.00%',gp:['100.00%','G'],hasb:1,parent:'366'},
+{name:'STATUS',f:1,type:4,id:368,tb:'1',h:'1',m:'0',hp:'100.00%',cov:['100.00%','G'],g:'100.00%',gp:['100.00%','G'],hasb:1,parent:'366'}],crx:[{dummy:0},
+{name:'DATAxSTATUS',f:1,type:5,id:369,tb:'5',h:'5',m:'0',hp:'100.00%',cov:['100.00%','G'],g:'100.00%',gp:['100.00%','G'],hasb:1,parent:'366',cross:['DATA','STATUS']}]},
+dummyEnd:0
+};
+processCovergroupsData(g_data);

@@ -1,19 +1,34 @@
+######################################
+# Simulator working directories
+######################################
+work/
+transcript
+vsim_stacktrace.vstf
 
 ######################################
-# Simulation outputs (generic)
+# Simulation outputs
 ######################################
-sim/
-sim_*/
 *.wdb
 *.vcd
 *.fst
 *.ghw
+*.wlf
+*.ucdb
+*.mti
 *.log
 *.jou
 *.xml
 *.pb
 *.lb
 *.out
+coverage
+
+######################################
+# Ignore generated simulator files
+######################################
+modelsim.ini
+uart.cr.mti
+uart_sim.cr.mti
 
 ######################################
 # Vivado / Xilinx generated files
@@ -44,9 +59,22 @@ sim_*/
 Thumbs.db
 
 ######################################
-# Do NOT ignore documentation & images
+# Keep source files
 ######################################
+!*.v
+!*.sv
+!*.vh
+!*.svh
+!*.do
+!*.md
 !*.png
 !*.jpg
 !*.jpeg
-!*.md
+!*.pdf
+!*.list
+
+######################################
+# Keep HTML coverage report
+######################################
+!sim_questa/coverage_report/
+!sim_questa/coverage_report/**

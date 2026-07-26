@@ -1,0 +1,14 @@
+var g_data = {
+a271:{
+scopes:[{s:'264',b:'1',val:'uart_pkg'},{val:'uart_generator'},{s:'269',b:'0',val:'start'},{val:'#anonblk#144335527#16#4#'},{link:'z.htm?f=0&s=271',val:'#ublk#144335527#17'}]
+,assertions:[{dummy:0},{cr:'c',c:'g',z:'immed__18',fc:'Gr',pc:'Gr',h0:'0',h1:'1'}
+],
+},
+a346:{
+scopes:[{s:'339',b:'1',val:'work.uart_pkg'},{val:'uart_generator'},{s:'344',b:'0',val:'start'},{val:'#anonblk#144335527#16#4#'},{link:'z.htm?f=0&s=346',val:'#ublk#144335527#17'}]
+,assertions:[{dummy:0},{cr:'c',c:'g',z:'immed__18',fc:'Gr',pc:'Gr',h0:'0',h1:'1'}
+],
+},
+dummyEnd:0
+};
+processAssertionsData(g_data,1);
